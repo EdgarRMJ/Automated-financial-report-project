@@ -4,6 +4,7 @@ df = pd.read_csv('financial_transactions.csv')
 
 # --- Data cleaning --- 
 df['Department'] = df['Department'].str.strip().str.title()
+df['Department'] = df['Department'].replace({'It': 'IT', 'Hr': 'HR'})
 df['Category'] = df['Category'].str.strip().str.title()
 
 df['Notes'] = ''
@@ -183,4 +184,5 @@ chart.height = 10
 ws_summary.add_chart(chart, "E2")
 
 wb.save("financial_report.xlsx")
+
 
