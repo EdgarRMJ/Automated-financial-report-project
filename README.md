@@ -49,7 +49,9 @@ Output: `financial_report.xlsx`
 
 ## Screenshots
 
-*(Add before/after cleaning comparison and Summary sheet with embedded chart here)*
+![Before cleaning](screenshots/before.png)
+![After cleaning](screenshots/after.png)
+![Summary sheet with chart](screenshots/summary_chart.png)
 
 ## Why This Matters for Clients
 
