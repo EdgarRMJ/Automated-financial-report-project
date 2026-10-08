@@ -1,13 +1,9 @@
-Tired of rebuilding the same monthly finance report by hand?
+Tired of rebuilding your monthly financial report by hand?
 
-Raw transaction exports are messy: inconsistent categories, blank descriptions, one-off purchases that distort the totals. I turn them into a clean, ready-to-read Excel report.
+Many small businesses track income and expenses in raw transaction exports, then spend hours each month cleaning inconsistent entries and copy-pasting totals into a summary. It’s slow, and one wrong cell can skew a budget decision.
 
-What I built (sample project): a Python script that took 2,619 transactions across 2 years and, in one run:
+I build automated financial reports in Python: one script takes your raw transaction file, cleans it (inconsistent categories, extra spaces, missing descriptions), flags unusual one-off expenses, and generates a formatted Excel workbook with a transaction sheet, a summary by category and department, and an embedded income-vs-expense chart.
 
-cleaned and standardized categories and departments
-flagged unusual expenses (2 outliers, $18,500 and $9,200) for review instead of silently deleting them
-produced a Summary sheet and a chart of income vs. expenses by category
+Demo project: 2,619 transactions over 2 years, 6 departments, 14 categories. Cleaned, validated, and reported in 3 seconds with a single command. Full code and documentation on GitHub: EdgarRMJ/Automated-financial-report-project.
 
-Result: every month you drop in a new export, run the script, and see where the money goes and which revenue lines carry the business.
-
-Code and sample report: https://github.com/EdgarRMJ/Automated-financial-report-project. Send me a few rows of your data and I'll tell you what the report would show.
+You keep working in Excel, the format you already use, and you decide where to cut or invest with consolidated numbers in front of you.

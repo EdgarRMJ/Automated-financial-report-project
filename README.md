@@ -57,6 +57,10 @@ Output: `financial_report.xlsx`
 
 This is the kind of recurring reporting task freelance clients pay for monthly: raw export in, formatted report out, no manual spreadsheet work. The full pipeline this project demonstrates — extract → clean → aggregate → deliver — is the same shape used for automated reporting gigs on Upwork and Fiverr.
 
+## Business value
+
+With this automated report, a small-business owner can decide which expense categories and departments to cut or strengthen, because income vs. expenses are consolidated in one Excel file generated in seconds, instead of being assembled by hand every month.
+
 ## Related Portfolio Projects
 
 - [HR/Payroll Analytics](https://github.com/EdgarRMJ/proyecto-rrhh-analytics) — SQL + Power BI

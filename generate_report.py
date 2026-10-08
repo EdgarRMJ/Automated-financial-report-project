@@ -81,7 +81,7 @@ net_profit = round(total_income - total_expense, 2)
 
 department_summary = df.groupby(['Department', 'Type'])['Amount'].sum()
 
-# --- Suammary ---
+# --- Summary ---
 ws_summary = wb.create_sheet("Summary")
 
 ws_summary['A1'] = "Financial Summary"
